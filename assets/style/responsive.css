@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .container {
+    width: 100%;
+  
+}
+#nav{
+    padding: 15px 30px;
+}
+#nav .menu{
+    display: none;
+}
+#nav .authentication{
+    display: none;
+}
+#nav .mobile-menu{
+	display: block;
+}
+
+ }
