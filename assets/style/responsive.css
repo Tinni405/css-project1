@@ -15,5 +15,77 @@
 #nav .mobile-menu{
 	display: block;
 }
+#banner .contains{
+    width: 100%;
+}
+#banner .image{
+    width: 100%;
+}
+#banner{
+    padding: 20px 5px;
+}
+#banner h2{
+    font-size: 38px;
+}
+.log{
+    gap: 30px;
+}
+/*clients*/
+.clients{
+    font-size: 22px;
+}
+.clients p{
+    font-size: 12px;
+}
+
+  #card {
+        padding: 5px 10px; 
+    }
+#card .card-1,
+#card .card-2,
+#card .card-3 {
+    width: 100%;          
+    margin: 10px 0;      
+    box-sizing: border-box;
+    } 
+
+.contact {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+.contact h2 {
+    font-size: 24px;
+    text-align: center;  
+  }
+  .contact-image {
+    order: -1; 
+  }
+.contact a {
+    margin: 0 auto;
+  }
+  /* local */
+
+  #local {
+    padding: 20px 10px;
+  }
+
+  #local .text-3 h4 {
+    font-size: 24px;
+  }
+
+  #local .number .image {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  #local .number img {
+    width: 24px;
+    height: 24px;
+  }
+
+  #local .number p {
+    font-size: 14px;
+  }
 
  }
