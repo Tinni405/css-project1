@@ -37,7 +37,7 @@
 .clients p{
     font-size: 12px;
 }
-
+/* card */
   #card {
         padding: 5px 10px; 
     }
@@ -48,7 +48,7 @@
     margin: 10px 0;      
     box-sizing: border-box;
     } 
-
+/* contact*/
 .contact {
     flex-direction: column;
     text-align: center;
@@ -87,5 +87,82 @@
   #local .number p {
     font-size: 14px;
   }
+
+  /* Testimonial */
+    .testimonial-box {
+        flex-direction: column;  /* vertically stack hobe */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .testimonial-box .photo img {
+        width: 100%;          /* full width hobe */
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .testimonial-box .right h4,
+    .testimonial-box .right span,
+    .testimonial-box .right p {
+        text-align: center;
+    }
+
+    /* Logos inside testimonial */
+    .testimonial-box .logos {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .testimonial-box .logos img {
+        height: 24px;
+    }
+
+    /* Cards */
+    .cards {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .card {
+        max-width: 100%;
+        flex: 1 1 100%;
+    }
+
+    /* Hero */
+    .hero h1 {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stay .subscribe {
+        flex-direction: column;
+    }
+
+    .stay input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Social icons in footer */
+    .social-icons {
+        justify-content: center;
+    }
+
+    /* Footer logo */
+    .footer-left .logo {
+        justify-content: center;
+    }
 
  }
